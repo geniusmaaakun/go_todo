@@ -1,0 +1,5 @@
+http://go-database-sql.org/accessing.html
+Close()使い終わったときはデータベースに慣用的ですが 、sql.DBオブジェクトは長持ちするように設計されています。
+
+https://please-sleep.cou929.nu/go-sql-db-connection-pool.html
+コネクションプール

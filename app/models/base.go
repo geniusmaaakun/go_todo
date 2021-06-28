@@ -14,6 +14,7 @@ import (
 
 var Db *sql.DB
 
+//errを定義しておかないと、グローバルのDbを使えない
 var err error
 
 const (

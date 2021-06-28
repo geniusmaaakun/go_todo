@@ -1,12 +1,16 @@
 package controllers
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 	"todo_app/app/models"
 )
 
 func top(w http.ResponseWriter, r *http.Request) {
+	fmt.Println(r.RemoteAddr) //アクセス元ip取得
+	fmt.Println(r.Method)
+	fmt.Println(r.URL.Path)
 	_, err := session(w, r)
 	if err != nil {
 		generateHTML(w, "Hello", "layout", "public_navbar", "top")

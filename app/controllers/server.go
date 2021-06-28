@@ -41,13 +41,13 @@ func parseURL(fn func(http.ResponseWriter, *http.Request, int)) http.HandlerFunc
 			http.NotFound(w, r)
 			return
 		}
-		qi, err := strconv.Atoi(q[2])
+		id, err := strconv.Atoi(q[2])
 		if err != nil {
 			http.NotFound(w, r)
 			return
 		}
 
-		fn(w, r, qi)
+		fn(w, r, id)
 	}
 }
 

@@ -335,3 +335,11 @@ created by net/http.(*Server).Serve
 	/usr/local/go/src/net/http/server.go:2933 +0x35c
 2020/10/31 12:10:20 users.go:104: near "valuse": syntax error
 2020/10/31 12:14:20 main.go:19: near ",": syntax error
+2021/01/03 08:50:22 route_auth.go:48: sql: no rows in result set
+2021/01/03 08:50:22 server.go:3061: http: superfluous response.WriteHeader call from todo_app/app/controllers.auhtenticate (route_auth.go:66)
+2021/01/03 08:50:30 route_auth.go:48: sql: no rows in result set
+2021/01/03 08:50:30 server.go:3061: http: superfluous response.WriteHeader call from todo_app/app/controllers.auhtenticate (route_auth.go:66)
+2021/02/06 12:52:18 route_auth.go:48: sql: no rows in result set
+2021/02/06 12:52:18 server.go:3061: http: superfluous response.WriteHeader call from todo_app/app/controllers.auhtenticate (route_auth.go:66)
+2021/02/06 12:52:23 route_auth.go:48: sql: no rows in result set
+2021/02/06 12:52:23 server.go:3061: http: superfluous response.WriteHeader call from todo_app/app/controllers.auhtenticate (route_auth.go:66)
